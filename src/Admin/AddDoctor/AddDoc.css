@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;1,200&family=Newsreader:wght@300&family=Teko:wght@300&display=swap');
+.heading{
+    max-width: 800px;
+    margin: 70px auto;
+    position: relative;
+    font-size: 1em;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.9);
+    padding: 30px;
+    background-color: rgb(207, 207, 236);
+    border-radius: 1rem;
+    
+}
+
+.input-text{
+    background-color: rgb(207, 207, 236);
+    font-family: 'Teko', sans-serif;
+}
+.heading .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, #161615 0%, #1e0b99 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.add-doc-form .form-field{
+        position: relative;
+        margin: 20px 0;
+}
+
+
+.add-doc-form .input-text:focus + .label,
+.add-doc-form .input-text.not-empty + .label{
+    transform: translateY(-15px);
+}
+.add-doc-form .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 1.3rem;
+    line-height: 16px;
+    font-weight: 600;
+    font-family: 'Karla', sans-serif;
+}
+
+.add-doc-form .input-text:focus{
+    outline: none;
+    /* background-color: rgb(170, 170, 240); */
+}
+
+.add-doc-form .label{
+    position: absolute;
+    left: 18.5px;
+    bottom:0.9em;
+    font-size: 1.2em;
+    line-height: 26px;
+    font-weight: 800;
+    color: rgb(20, 20, 20);
+    cursor: text;
+    font-family: 'Newsreader', serif;
+    transition: transform 0.2s ease-in-out;
+}
+
+.add-doc-form .submit-btn{
+    display: inline-block;
+    background-image: linear-gradient(150deg,#2caccc,#99adc5);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    padding: 8px 16px;
+    width: 10rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    cursor: pointer;   
+}
+.logbtn {
+    color: black;
+    float: right;
+    transform: scale(2);
+    margin-bottom:1%;
+    margin-right: 1%;
+  }
+.logtxt {
+    font-size:13px;
+    float: right;
+    margin-left:100%;
+    margin-bottom:6%;
+  }

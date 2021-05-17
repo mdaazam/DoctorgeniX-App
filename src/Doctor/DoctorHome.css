@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  th {
+    border: 3px solid #474343;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Oswald', sans-serif;
+  }
+  td {
+    border: 1px solid #864646;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #a6bae6;
+  }
+  
+
+  .Header{
+      margin-left: 0%;
+      font-family: 'Girassol', cursive;
+  }
+  .Datestyle{
+    margin-left: 80%;
+  }
+  .button{
+    
+    margin: 3px; 
+    
+    padding: 9px 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #7a7e7a;
+    color: white;
+  }
+  .viewButton{
+    
+   align-items: center;
+  }
